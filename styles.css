@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial;
+  color: #333;
+  background-color: rgb(156, 220, 250);
+}
+
+header {
+  padding: 50px;
+  justify-content: space-around;
+  background-color: rgb(105, 76, 42);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+p {
+  font: 1.2em sans-serif;
+}
+
+
+main {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 50px 250px 50px 250px;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+main form {
+  width: 45%;
+  padding: 10px;
+  margin-right: 75px;
+  border:5px solid #eee;
+  box-shadow:0 0 15px 4px rgba(0, 0 , 0, 0.6);
+  background-color: #eee; 
+}
+
+main article {
+  width: 45%;
+  border:5px solid #eee;
+  background-color: #eee;
+  box-shadow:0 0 15px 4px rgba(0, 0 , 0, 0.6);
+  margin-left: 75px;
+  
+  /* display: inline-flexbox; */
+}
+
+h1 , h2, h3, h4, p {
+  margin-bottom: 1em;
+}
+
+#title {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: .5em;
+}
+
+input, textarea, #destination_details_form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  border: 1px solid #666;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 20px;
+  background-color: #efefef;
+  margin-bottom: 20px;
+}
+
+
+
+
